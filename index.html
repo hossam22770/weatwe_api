@@ -1,0 +1,143 @@
+<html>
+    <head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg bg-drk ">
+        <div class="container"> 
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/logo.png" alt="" class="d-inline im-wi">
+          <div class="d-inline py-4 px-3">
+              <h1 class="t-w cap-tx">Weather</h1>
+               <small class="text-muted pl-1 site-description t-w">tagline goes here</small>
+          </div>
+      </a>
+        <button class="navbar-toggler t-w "id="give" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars py-3 px-3 rounded-circle hvrbtn"></i>
+        </button>
+        <div class="w-100">
+        <div class="collapse navbar-collapse navuniq1 w-100 tran" id="navbarNav">
+          <ul class="navbar-nav  ml-auto navsm">
+            <li class="nav-item active navbord">
+              <a class="nav-link t-w mx-3" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item navbord">
+              <a class="nav-link t-w mx-3" href="#">News</a>
+            </li>
+            <li class="nav-item navbord">
+              <a class="nav-link t-w mx-3" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item navbord">
+              <a class="nav-link t-w mx-3 " href="#" >Photos</a>
+            </li>
+            <li class="nav-item navuniq">
+              <a class="nav-link t-w mx-3" href="#" >Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+       
+        </div>
+
+      </nav>
+       
+        <section id="HOME" class="bg-img ">
+          <div class="ptop-5">
+            <div class="text-center position-relative findc ">
+              
+           <input id="search" type="text" class="form-control m-auto w-100 bg-drk rounded-pill inphi bornon" placeholder="    Find your location..">
+           <button id="searchbtn" class="btn btn-primary py-2 px-4 rounded-pill bornon position-absolute btnpos">Find</button>
+          
+        </div>
+      </div>
+        </section>
+        
+        <div class="w-100 npag">
+        <div class="move findc  ">
+          <div class="row roundedlg">
+            
+            <div class="col-md-4 pad0 roundlgl">
+              <div class="d-flex justify-content-between bgd smh roundlgl botl2">
+              <p id="currTIM" class="text-muted py-1 px-2"></p>
+              <p id="currdat" class="text-muted py-1 px-2"></p>
+            </div>
+            <div class="bgh bigh botl">
+              <h2 id="city" class="t-w">Cairo</h2>
+              <h2 id="curr-tem" class="d-inline fontsiz t-w pr-5">22oC</h2> <img id="currImg" src="https://cdn.weatherapi.com/weather/64x64/night/113.png"  alt="">
+              <p id="condition" class="text-primary pl-2 py-3">clear</p>
+              <div class="row">
+                <div class="col-3 d-flex">
+                  <img src="images/icon-umberella.png" alt="" class="d-inline imh "> <p>20%</p> 
+                </div>
+                <div class="col-4 d-flex">
+                  <img src="images/icon-wind.png" alt="" class="d-inline imh "> <p>18km/h</p> 
+                </div>
+                <div class="col-4 d-flex">
+                  <img src="images/icon-compass.png" alt="" class="d-inline imh "> <p>18km/h</p> 
+                </div>
+              </div>
+              
+            </div>
+            </div>
+            <div class="col-md-4 text-center  pad0">
+              <div class="text-center bg3 pad0 d-flex smh">
+                <p id="nextday1" class="text-muted m-auto py-1 px-2"></p>
+              </div>
+              <div class="text-center bg2 pad0 bigh">
+                <img id="nextdayicon" src="" alt="">
+                <h4 id="nexdayT" class="t-w">37.7oC</h4>
+                <p id="mnextt" class="text-muted">19.4o</p>
+                <p id="nextdaycon" class="text-primary">Sunny</p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center fullh pad0">
+              <div class="text-center  smh fiback roundlgr">
+                <p id="nextday2" class="text-muted py-1 px-2"></p>
+              </div>
+              <div class="text-center fbg fullh bigh btr roundlgr2">
+                <img id="nextdayicon2" src="" alt="">
+                <h4 id="nexnextday" class="t-w">38.8oC</h4>
+                <p id="nexnextdayl" class="text-muted">21.6o</p>
+                <p id="nextdaycon2" class="text-primary">Partly cloudy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="bbg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="mt-5 mb-4 position-relative">
+              <input type="text" class="form-control m-auto w-100 bg-drk rounded-pill inphi bornon" placeholder="    Enter your email to subscribe...">
+              <button class="btn btn-primary py-2 px-4 rounded-pill bornon position-absolute btnpos">Subscribe</button>
+            </div>
+            </div>
+            
+            <div class="col-md-3 mx-3">
+              <div class="mt-5 sm-mar">
+               
+                
+                <i class="fab fa-facebook-f  facicon p-2 iconn rounded-circle"></i>
+                <i class="fab fa-twitter iconn  p-2 rounded-circle "></i>
+                
+                <i class="fab fa-google-plus-g iconn  p-2 rounded-circle "></i>
+                <i class="fab fa-pinterest iconn  p-2 rounded-circle "></i>
+              </div>
+            </div>
+          </div>
+          <p class="text-muted">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </section>
+
+
+
+
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
